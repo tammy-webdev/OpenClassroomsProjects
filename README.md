@@ -17,7 +17,7 @@ The app has 2 main sections:
 
 Other features:
  - When you click on a restaurant, the list of reviews is shown. Also show the Google Street View photo via the corresponding API! 
- - A filter tool allows the display of restaurants that have between X and Y stars. The map is be updated in real-time to show the corresponding restaurants.
+ - A filter tool allows the display of restaurants that have between X and Y stars. The map is updated in real-time to show the corresponding restaurants.
  - Add a review about an existing restaurant. Once a review or restaurant has been added, it appears immediately on the map.
  - Add a restaurant by clicking on a specific place on the map. A new marker will show the position of the new restaurant.
 
