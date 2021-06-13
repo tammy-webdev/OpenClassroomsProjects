@@ -1,6 +1,6 @@
 # Todo list app
 
-This is a short speciciation about the todo apps that follows the Model View Controller (MVC) design pattern.
+This is a short specification about the todo apps that follows the Model View Controller (MVC) design pattern.
 
 ## Model View Controller (MVC) design pattern
 
@@ -109,7 +109,7 @@ Removes completed todos when clicked. Should be hidden when there are no complet
 
 ### Persistence
 
-The app saves the todos to localStorage as `todos-vanillajs`. Saving uses the keys `id`, `title`, `completed` for each item. Editing mode is not be persisted.
+The app saves the todos to localStorage as `todos-vanillajs`. Saving uses the keys `id`, `title`, `completed` for each item. Editing mode is not saved.
 
 ### Routing
 
