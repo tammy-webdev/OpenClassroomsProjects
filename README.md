@@ -26,6 +26,7 @@ All information will not be saved if the user leaves the page (it will just be s
 
 Presentation: [Google Slide](https://drive.google.com/file/d/14YV1zIYRDK4NsKXDSpzFAMi8YZJjT4LK/view?usp=sharing)
 
+Documentation: [README.md](https://github.com/tammy-webdev/OpenClassroomsProjects/blob/main/projects/restaurant-review-app/README.md)
 
 **Acquired skills & tools:**
  - Develop a full React JS application according to a specification.
