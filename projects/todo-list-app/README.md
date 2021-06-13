@@ -5,7 +5,7 @@ This is a short specification about the todo apps that follows the Model View Co
 ## Model View Controller (MVC) design pattern
 
 The MVC pattern divides the whole application into model, view or controller sections. Each section of the code has a distinct purpose:
- - Model: Model code code can hold, save and load raw data. The model code would define what a “todo item” is and what a “list” is.
+ - Model: Model code can hold, save and load raw data. The model code would define what a “todo item” is and what a “list” is.
  - View: View code is made up of all the functions that directly interact with the user. This is the code that renders the look of the app.
  - Controller: Controller code acts as a liaison between the Model and the View, receiving user input and deciding what to do with it.
 
