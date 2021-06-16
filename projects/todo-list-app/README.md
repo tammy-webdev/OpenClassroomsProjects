@@ -64,11 +64,57 @@ You can install all dependencies locally by running the command line:
 npm install
 ```
 
-Everything will be installed in the `node_modules` directory.
+Everything will be installed in the `node_modules` directory. To run the app, open the `/index.html` page in the browser.
 
 ### Code
 
 The `base.css` file is referenced from the `node_modules` directory without modifications. For custom styles and bug fixes, use the `app.css` file, but try to keep changes to a minimum.
+
+### Running Tests
+
+The `/test/ControllerSpec.js` file contains all the unit tests. To see the test results, open the `/test/SpecRunner.html` page in the browser. Note that the tests with an star at the end have recently been added, for example: `should show entries on start-up*`.
+
+    30 specs, 0 failures
+
+    controller
+        should show entries on start-up*
+    routing
+        should show all entries without a route
+        should show all entries without "all" route
+        should show active entries*
+        should show completed entries*
+        should show the content block when todos exists
+        should hide the content block when no todos exists
+        should check the toggle all button, if all todos are completed
+        should set the "clear completed" button
+        should highlight "All" filter by default*
+        should highlight "Active" filter when switching to active view*
+    toggle all
+        should toggle all todos to completed*
+        should update the view*
+    new todo
+        should add a new todo to the model*
+        should add a new todo to the view
+        should clear the input field when a new todo is added
+    element removal
+        should remove an entry from the model*
+        should remove an entry from the view
+        should update the element count
+    remove completed
+        should remove a completed entry from the model
+        should remove a completed entry from the view
+    element complete toggle
+        should update the model
+        should update the view
+    edit item
+        should switch to edit mode
+        should leave edit mode on done
+        should persist the changes on done
+        should remove the element from the model when persisting an empty title
+        should remove the element from the view when persisting an empty title
+        should leave edit mode on cancel
+        should not persist the changes on cancel
+        
 
 
 ## Functionality
