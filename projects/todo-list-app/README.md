@@ -1,6 +1,6 @@
 # Todo list app
 
-This is a short specification about the todo apps that follows the Model View Controller (MVC) design pattern.
+This is a short specification about the todo apps that follows the Model View Controller (MVC) design pattern. The app uses pure (vanilla) javascript without any dependencies other than the MVC base components.
 
 ## Model View Controller (MVC) design pattern
 
